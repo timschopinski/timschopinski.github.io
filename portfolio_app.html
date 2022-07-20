@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio App</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="default.css">
+
+
+    <style type="text/css">
+        .img-container{
+            max-width: 600px;
+        }
+
+        img{
+            width: 100%
+        }
+
+    </style>
+
+</head>
+<body>
+<div class="nav-wrapper">
+
+    <!-- Link around dots-wrapper added after tutorial video -->
+    <a href="index.html">
+        <div class="dots-wrapper">
+            <div id="dot-1" class="browser-dot"></div>
+            <div id="dot-2" class="browser-dot"></div>
+            <div id="dot-3" class="browser-dot"></div>
+        </div>
+    </a>
+
+    <ul id="navigation">
+        <li><a href="index.html#contact">Contact</a></li>
+
+    </ul>
+</div>
+
+
+<div class="main-container">
+    <br>
+
+    <div class="img-container">
+        <img src="images/portfolio_app.png">
+    </div>
+
+    <h3>Portfolio App (Work in progress)</h3>
+
+    <p>This is a dockerized Rest Api build with Rest Framework.</p>
+    <p>I am using celery tasks to get and store the assets from the CoinmarketCap API</p>
+    <p>and also to update the prices.</p>
+    <p>The user is able to create multiple portfolios and add assets to them.</p>
+    <p>The next step is to aggregate the data and display the summary and statistics.(coming soon)</p>
+    <p>The Frontend part is build by another developer.</p>
+
+    <h4>View Project</h4>
+    <a target="_blank" href="https://crypto-apka.herokuapp.com/#/">https://crypto-apka.herokuapp.com/#/</a>
+
+
+    <h5>Technologies:</h5>
+    <div class="technologies-portfolio-app">
+        <div class="technologies">
+            <ul>
+                <li>- <strong> Backend: </strong></li>
+                <li>- Python</li>
+                <li>- Django Rest Framework</li>
+                <li>- Docker</li>
+                <li>- Celery</li>
+                <li>- Redis</li>
+                <li>- Postgres</li>
+            </ul>
+        </div>
+
+        <div class="technologies">
+                <ul>
+                <li>- <strong> Frontend: </strong></li>
+                <li>- JavaScript</li>
+                <li>- Vue.js</li>
+                <li>- TypeScript</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
