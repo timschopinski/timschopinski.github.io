@@ -14,6 +14,8 @@
 
 
 	--buttonColor:black;
+	--buttonColorHover:black;
+	--buttonColorActive:black;
 
 
 }
@@ -394,6 +396,17 @@ h6 { font-size: 16px;}
 	color: #fff;
 	background-color: var(--buttonColor);
 	border:none;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#submit-btn:hover {
+	background-color: var(--buttonColorHover);
+	color: white;
+}
+
+#submit-btn:active {
+	background-color: var(--buttonColorActive);
 }
 
 .technologies-portfolio-app {
